@@ -1,50 +1,62 @@
 [
   {
     "id": 1,
+  "name": "Bob Weir",
     "image": "/img/bobby.jpg"
   },
   {
     "id": 2,
+    "name": "Bob Weir",
     "image": "/img/clapton.jpg"
   },
   {
     "id": 3,
+    "name": "Bob Weir",
     "image": "/img/gilmour.jpg"
   },
   {
     "id": 4,
+    "name": "Bob Weir",
     "image": "/img/jerry.jpg"
  },
   {
     "id": 5,
+    "name": "Bob Weir",
     "image": "/img/jimi.jpg"
   },
   {
     "id": 6,
+    "name": "Bob Weir",
     "image": "/img/jimmypage.jpg"
   },
   {
     "id": 7,
+    "name": "Bob Weir",
     "image": "/img/knopfler.jpg"
   },
   {
     "id": 8,
+    "name": "Bob Weir",
     "image": "/img/richards.jpg"
   },
   {
     "id": 9,
+    "name": "Bob Weir",
     "image": "/img/slash.jpg"
   },
   {
     "id": 10,
+    "name": "Bob Weir",
     "image": "/img/stevie.jpg"
   },
   {
     "id": 11,
+    "name": "Bob Weir",
     "image": "/img/trey.jpg"
   },
   {
     "id": 12,
+    "name": "Bob Weir",
     "image": "/img/vai.jpg"
   }
 ]

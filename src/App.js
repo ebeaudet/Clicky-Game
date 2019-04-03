@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Rockers from "./components/Rockers/rockers";
+import Rockers from "./components/Rockers";
 import Wrapper from "./components/Wrapper";
 import rockGods from "./rockGods.json";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 import "./App.css";
 
 class App extends Component {

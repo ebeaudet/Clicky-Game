@@ -22,7 +22,7 @@ class App extends Component {
       this.setState({
         idsClicked: [], score: 0
       })
-      alert("You lost, click to play again")
+      alert("You broke a string! Click to play again!")
       return
     } else {
       idsClicked.push(id);
@@ -32,7 +32,7 @@ class App extends Component {
       this.setState({
         score: 0, idsClicked: []
       })
-      alert("You're a winner baby click to play again")
+      alert("Rock on!!! You're a Winner!!!")
       return
     }
 
@@ -52,7 +52,9 @@ class App extends Component {
     return (
       <Wrapper>
         <Header>
-          <p style={{ textAlign: "center" }}>Want to play a game? Test your memory</p>
+          <p style={{ textAlign: "center" }}>Test Your Memory?</p>
+          <p style={{ textAlign: "center" }}>Try and get 12 points by clicking each image only once.</p>
+          <p style={{ textAlign: "center" }}>Be careful because the images will shuffle after each click.</p>
           <h2 style={{ textAlign: "center" }}>Score: {this.state.score} | Score to meet: {this.state.winningscore}</h2>
           <h3 style={{ textAlign: "center", color: "red" }}>{this.state.message}</h3>
         </Header>
